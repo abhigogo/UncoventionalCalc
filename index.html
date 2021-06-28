@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ConventionalCalc_2</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Script -->
+    <script src="calc.js" defer></script>
+  </head>
+  <body>
+    <div class="headingTextContainer">
+      <span id="headingText">Unconventional Calculator</span>
+    </div>
+    <div class="calculatorInterface">
+      <div id="inputInterface">
+        <div id="inputConsole">
+          <input type="number" id="inputPlaceHolder" />
+        </div>
+        <div id="operatorButtonsInterface">
+          <div id="operatorButtons">
+            <button type="button" id="add-btn" style="width: 15%">+</button>
+            <button type="button" id="subtract-btn" style="width: 15%">
+              -
+            </button>
+            <button type="button" id="multiply-btn" style="width: 15%">
+              *
+            </button>
+            <button type="button" id="divide-btn" style="width: 15%">/</button>
+          </div>
+        </div>
+      </div>
+      <div id="outputInterface">
+        <div id="currentCalculation"></div>
+        <div id="result">
+          <h3>
+            RESULT : <br />
+            <span id="currentResult"></span>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

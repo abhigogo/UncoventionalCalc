@@ -1,0 +1,99 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headingTextContainer {
+  border: 1px solid black;
+  width: 100%;
+  height: 30vh;
+  position: relative;
+  background-color: rgb(12, 33, 56);
+}
+
+#headingText {
+  font-family: "Teko", sans-serif;
+  font-size: 3.5rem;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.calculatorInterface {
+  /* border: 2px solid red; */
+  height: 70vh;
+  display: grid;
+  place-items: center;
+}
+
+#inputInterface,
+#outputInterface {
+  width: 50%;
+  height: 80%;
+  border: 1.5px solid black;
+  border-radius: 20px;
+}
+
+#inputInterface {
+  display: grid;
+  place-items: center;
+}
+
+#inputConsole {
+  /* border: 1px solid black; */
+  height: 50%;
+  width: 50%;
+}
+
+#operatorButtonsInterface {
+  /* border: 1px solid black; */
+  height: 80%;
+  width: 50%;
+}
+
+#inputPlaceHolder {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: inherit;
+  border-radius: 20px;
+}
+
+#operatorButtonsInterface {
+  position: relative;
+}
+
+#operatorButtons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#operatorButtons button {
+  background-color: rgb(12, 33, 56);
+  color: whitesmoke;
+  font-size: 1.5rem;
+  border-color: rgb(12, 33, 56) ;
+}
+
+#operatorButtons button:hover{
+    cursor : pointer;
+    background-color: rgb(16, 60, 107) ;
+}
+
+#outputInterface {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
